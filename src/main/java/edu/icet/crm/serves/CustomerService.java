@@ -10,4 +10,8 @@ public class CustomerService {
         customer.setPhoneNumber("0778626611");
         return customer;
     }
+
+    public String printHello(String name){
+        return  "Hello " + name;
+    }
 }
